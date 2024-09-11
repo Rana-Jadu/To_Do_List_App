@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">To Do List App</string>
+    <string name="appName">ToDo</string>
+    <string name="contentDescription">TODO</string>
+    <string name="slogan">Let\'s plan together</string>
+    <string name="enter_your_email">Email Address</string>
+    <string name="enter_your_pass">Confirm Password</string>
+    <string name="re_enter_your_pass">Re-Confirm Password</string>
+    <string name="type_your_task">Add your task</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

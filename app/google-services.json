@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "714802416188",
+    "firebase_url": "https://to-do-list-app--kotlin-default-rtdb.firebaseio.com",
+    "project_id": "to-do-list-app--kotlin",
+    "storage_bucket": "to-do-list-app--kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714802416188:android:416963487adfe105d15139",
+        "android_client_info": {
+          "package_name": "com.example.todolistapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAennoQJlXyUD82Bl6OsxvDZmUTKvFCEsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
