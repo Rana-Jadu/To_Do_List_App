@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.todolistapp.databinding.FragmentToDoDialogBinding
 import androidx.fragment.app.DialogFragment
+import com.example.todolistapp.utils.ToDoData
 import com.google.android.material.textfield.TextInputEditText
-
 
 class ToDoDialogFragment : DialogFragment() {
 
@@ -38,7 +38,6 @@ class ToDoDialogFragment : DialogFragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
 
         binding = FragmentToDoDialogBinding.inflate(inflater , container,false)
         return binding.root

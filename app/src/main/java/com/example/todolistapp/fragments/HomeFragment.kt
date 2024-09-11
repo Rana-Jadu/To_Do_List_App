@@ -5,14 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.todolistapp.R
 import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.todolistapp.databinding.FragmentHomeBinding
-import com.example.kotlintodopractice.databinding.FragmentHomeBinding
-import com.example.kotlintodopractice.utils.adapter.TaskAdapter
-import com.example.kotlintodopractice.utils.model.ToDoData
+import com.example.todolistapp.utils.TaskAdapter
+import com.example.todolistapp.utils.ToDoData
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
@@ -47,10 +45,8 @@ class HomeFragment : Fragment(), ToDoDialogFragment.OnDialogNextBtnClickListener
         super.onViewCreated(view, savedInstanceState)
 
         init()
-
         //get data from firebase
         getTaskFromFirebase()
-
 
         binding.addTaskBtn.setOnClickListener {
 

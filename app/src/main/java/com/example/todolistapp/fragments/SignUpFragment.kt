@@ -53,6 +53,7 @@ class SignUpFragment : Fragment() {
 
     }
 
+
     private fun registerUser(email: String, pass: String) {
         mAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener {
             if (it.isSuccessful)
